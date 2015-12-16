@@ -6,7 +6,7 @@
   "main": "app/index.js",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/abner/generator-angular2-gulp-webpack.git"
+    "url": "git+https://github.com/abner/generator-angular2-beta-gulp-webpack.git"
   },
   "author": "Ábner Oliveira",
   "scripts": {},
@@ -23,8 +23,8 @@
   },
   "devDependencies": {},
   "bugs": {
-    "url": "https://github.com/abner/generator-angular2-gulp-webpack/issues"
+    "url": "https://github.com/abner/generator-angular2-beta-gulp-webpack/issues"
   },
-  "homepage": "https://github.com/abner/generator-angular2-gulp-webpack#readme",
+  "homepage": "https://github.com/abner/generator-angular2-beta-gulp-webpack#readme",
   "directories": {}
 }
