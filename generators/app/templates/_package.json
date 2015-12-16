@@ -10,7 +10,7 @@
     },
   "dependencies": {},
   "devDependencies": {
-    "angular2": "^2.0.0-alpha.46",
+    "angular2": "^2.0.0-beta.0",
     "del": "^2.0.2",
     "express": "^4.13.3",
     "gulp": "^3.9.0",
