@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title><%= title %></title>
-    
+
     <!-- Put your css files here to have them load in development. In production they will be concated together. -->
     <!-- build:css -->
     <link rel="stylesheet" type="text/css" href="css/main.css">
@@ -13,11 +13,13 @@
   </head>
   <body>
     <app></app>
-    
+
     <!-- These are the necessary angular2 development files. Don't put your own files here or they won't be included in production. -->
     <!-- build:js -->
     <script src="../node_modules/systemjs/dist/system.js"></script>
     <script src="../node_modules/typescript/lib/typescript.js"></script>
+    <script src="../node_modules/angular2/bundles/angular2-polyfills.js"></script>
+    <script src="../node_modules/rxjs/bundles/Rx.js"></script>
     <script src="../node_modules/angular2/bundles/angular2.dev.js"></script>
     <script src="../node_modules/angular2/bundles/http.dev.js"></script>
     <script>
@@ -29,6 +31,6 @@
     </script>
     <script src="http://localhost:35729/livereload.js"></script>
     <!-- endbuild -->
-  
+
   </body>
 </html>
